@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "dev": "npx nodemon",
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "lint": "eslint"
   },
   "husky": {
     "hooks": {
@@ -35,6 +36,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
+    "eslint": "^8.56.0",
     "jest-cucumber": "^3.0.1"
   }
 }
