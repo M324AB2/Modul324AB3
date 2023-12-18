@@ -23,4 +23,4 @@ RUN npm run test
 RUN npm run build
 
 # Der Startbefehl, der beim Ausführen des Containers ausgeführt wird
-CMD ["node", "your-start-script.js"]
+CMD ["node"]
