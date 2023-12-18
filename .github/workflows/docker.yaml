@@ -17,5 +17,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: user/app:latest
+          tags: shanthosh04/m324-typescript:latest
 
