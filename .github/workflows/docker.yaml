@@ -33,5 +33,3 @@ jobs:
         with:
           push: true
           tags: shanthosh04/m324-typescript:latest
-          secrets: |
-           dckr_pat_7iP7gHAXvoSPzW2WnxW0n97yxuU
