@@ -4,13 +4,13 @@ on:
   pull_request:
     branches:
       - master
-    paths:
-      - 'development'
+    paths-ignore:
+      - 'development/**'
 
 jobs:
   build:
     runs-on: self-hosted
-      steps:
+    steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
