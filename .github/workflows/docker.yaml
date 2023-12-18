@@ -32,6 +32,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: user/app:latest
+          tags: shanthosh04/m324-typescript:latest
           secrets: |
            dckr_pat_7iP7gHAXvoSPzW2WnxW0n97yxuU
