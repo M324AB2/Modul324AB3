@@ -19,4 +19,4 @@ jobs:
           push: true
           tags: user/app:latest
           secrets: |
-            "dckr_pat_6noar5fTKXu0FbXBw1vhHwELatw ${{ secrets.DOCKERHUB_TOKEN }}"
+            "dckr_pat_6noar5fTKXu0FbXBw1vhHwELatw"
