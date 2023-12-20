@@ -4,9 +4,10 @@ on:
   pull_request:
     branches:
       - master
-    paths-ignore:
-      - 'development'
-
+      - development
+    types:
+      - opened
+      - synchronize
 jobs:
   docker:
     runs-on: self-hosted
