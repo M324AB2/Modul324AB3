@@ -1,9 +1,11 @@
 name: CI
 
 on:
-  push:
+  pull_request:
     branches:
-      - 'main'
+      - master
+    paths-ignore:
+      - 'development'
 
 jobs:
   docker:
